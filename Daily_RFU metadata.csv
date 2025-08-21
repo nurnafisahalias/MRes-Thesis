@@ -1,0 +1,26 @@
+﻿Title,Chemically engineering diatoms and algae for novel battery material
+Abstract,"Data produced for MRes eeChange research project. Algae and diatoms were cultured in chemically-enhanced media, phosphate for algae and aluminium/zinc for diatoms. RFU measurements were taken to monitor growth rates"
+,"The result show that the higher the concention of phosphate added to the media where algae was cultured, the higher the growth rate. However, there is inhibition for the diatoms in some treatments."
+Data creator,Nur Nafisah Bte Alias
+Equipment description,"chlorophyll fluorometer (Trilogy, Loratory Fluorometer 7200-000, setting: chl-A)"
+Date range,
+Taxonomic description,"Green algae Chlamydomonas Pulvinata, and diatoms Thalassiosira Pseudonana and Thalassiosira Weissflogii were used in this project"
+Methods,Green algae was cultured in freshwater of different concentrations of phosphates. 3 flasks per concentration.
+,Diatoms were cultured in seawater of different concnetrations of aluminium or zinc. 3 flasks per concentration.
+,500 uL of sample was diluted with 2 mL of respective media. RFU measurements were taken daily at 8 am. 3 times per flask.
+Quality assurance,"Nafisah cultured, harvested, purified and prepared the samples for the analysis. "
+Data descriptors,Daily_RFU contains the daily RFU readings of each sample.
+,
+Table: SEM_EDS_Data,
+Variable,Description
+Species,"C. pulvinata, T. pseudonana, or T. weissflogii"
+FlaskID,Unique flask number
+ReadingID,Unique reading number per flask
+Treatment,"Phosphate for C. pulvinata, aluminium or zinc for diatoms"
+Concentration,"Concentration of phosphate, aluminium or zinc for each treatment"
+Day,The number of days from algae/diatoms first added to the treatment
+RFU,RFU measurements
+,
+,
+,
+,
