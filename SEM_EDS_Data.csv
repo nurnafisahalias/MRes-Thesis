@@ -1,0 +1,27 @@
+﻿Title,Chemically engineering diatoms and algae for novel battery material
+Abstract,"Data produced for MRes eeChange research project. Algae and diatoms were cultured in chemically-enhanced media, phosphate for algae and aluminium/zinc for diatoms. Measurements from SEM-EDS were done to quantify the uptake of chemicals."
+,"The result show that the higher the concention of phosphate added to the media where algae was cultured, the more % mol P found. However, the uptake of Al/Zn is highly specific on species."
+Data creator,Nur Nafisah Bte Alias
+Equipment description,Analytical Scanning Electron Microscope (JEOL JSM-6010)
+Date range,23 July 2025 to 15 Aug 2025
+Taxonomic description,"Green algae Chlamydomonas Pulvinata, and diatoms Thalassiosira Pseudonana and Thalassiosira Weissflogii were used in this project"
+Methods,Green algae was cultured in freshwater of different concentrations of phosphates
+,Diatoms were cultured in seawater of different concnetrations of aluminium or zinc
+,"Green algae and diatoms undergo centrifugal treatment and were collected as pellets which were washed with 10% SDS, water and ethanol."
+,The samples were then prepared on aluminium stubs with carbon stickers and left to be dried before being coated with gold.
+,"SEM-EDS images were collected, point analysis was done on 5 points on each 5 cells"
+Quality assurance,"Nafisah cultured, harvested, purified and prepared the samples for the analysis"
+Data descriptors,"SEM_EDS_Data contains the % mol of Si, O, Al, Zn and P. input with 'nd' means not detected"
+,
+Table: SEM_EDS_Data,
+Variable,Description
+Species,"C. pulvinata, T. pseudonana, or T. weissflogii"
+CellID,Unique cell number
+PointID,Unique point number on each cell
+Treatment,"Phosphate for C. pulvinata, aluminium or zinc for diatoms"
+Concentration,"Concentration of phosphate, aluminium or zinc for each treatment"
+Si_mol,% mol of Si detected on SEM-EDS
+O_mol,% mol of O detected on SEM-EDS
+Zn_mol,% mol of Zn detected on SEM-EDS
+Al_mol,% mol of Al detected on SEM-EDS
+P_mol,% mol of P detected on SEM-EDS
